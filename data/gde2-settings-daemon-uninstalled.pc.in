@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+binary=${pc_top_builddir}/gde2-settings-daemon/gde2-settings-daemon
+
+Name: gde2-settings-daemon
+Description: Utility library for accessing gde2-settings-daemon over DBUS
+Requires: glib-2.0 dbus-1 dbus-glib-1
+Version: @VERSION@
+Libs: ${pc_top_builddir}/${pcfiledir}/libgde2-settings-daemon.la
+Cflags: -I${pc_top_builddir}/${pcfiledir}/..

@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+ 
+[GDE2.gde2-settings-daemon]
+file_filter = po/<lang>.po
+source_file = po/gde2-settings-daemon.pot
+source_lang = en

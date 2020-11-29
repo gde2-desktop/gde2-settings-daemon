@@ -1,0 +1,77 @@
+1.16.2
+  * Background: restore option to let Caja draw background with
+    GTK+ 3.22
+  * Mouse: make pointer locater work in GTK+3 build
+  * Mouse: fix some more issues in pointer locater
+
+1.16.1
+  * GTK+3: fix possible build breakage with libgde2-desktop 1.17
+  * GTK+3: fix OSD rendering on non-composited desktop
+  * GTK+3: add OSD style class for non-composited desktop
+
+1.16.0
+  * Change default hinting style to 'hintslight'
+  * Use 'rgba' (LCD subpixel) antialiasing by default
+  * GTK+3: add css theming for OSD (MsdOsdWindow) instead of using
+    hardcoded colors
+  * GTK+3: fix drawing and changing of desktop background with 3.21
+  * GTK+3: fix several deprecations
+  * Fix some build warnings
+  * Translations update
+
+1.14.1
+  * housekeeping: fix thumbnails cleaning
+  * housekeeping: fix text markup
+  * media-keys: use gnome-calculator binary instead of old gcalctool
+  * Translations update
+  * Make distcheck use currently selected GTK+ version
+
+1.14.0
+  * Drop Gde2Conf migration script
+  * media-keys: add setting to enable/disable OSD
+  * touchpad: support edge and two-finger scrolling independently
+    (use separate GSettings keys for them)
+  * xsettings: add settings for cursor theme and size
+  * GTK+3: several deprecation fixes
+  * Some more fixes and cleanups
+  * Translations update
+  * Fix Changelog generation
+
+1.12.1
+  * xrandr: install icon in correct directory
+  * GTK+3: don't remove xrandr applet background (fixes invisible
+    text in some themes)
+
+1.12.0
+  * Add new keybinding for logout (empty by default)
+  * Retrieve strings directly from gschema (requires intltool 0.50.1)
+  * Switch to org.gnome.SessionManager
+  * Touchpad settings: added support for natural scrolling, 2 finger
+    and 3 finger clicks
+  * Mouse: use syndaemon -K to ignore Ctrl+C and other combos
+  * GTK+3: make xrandr tray applet support custom panel themes
+  * Some more fixes and cleanups
+
+1.10.2
+  * a11y: don't use ancient properties
+  * housekeeping: don’t monitor fdescfs (special FS in FreeBSD)
+  * keyboard: connect to libgde2kbd's GSettings before reading them
+  * mouse: use event driven mode for syndaemon, save some power
+
+1.10.1
+  * Fix media keys issue with multiple players
+  * Add some missing manpages
+  * Translations update
+
+1.10.0
+  * Port media-keys plugin to libgde2mixer
+  * Remove GStreamer bits, make libgde2mixer, libcanberra and PulseAudio
+    optional dependencies
+  * Adapt to gde2-desktop Gde2RR* API changes. Thanks to monsta for testing.
+
+1.8.0
+  * Add GTK3 support
+  * Add Middle Click Emulation to mouse manager
+
+1.6.0
+  * Migration to gsettings

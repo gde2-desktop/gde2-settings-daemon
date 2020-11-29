@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.gde2.SettingsDaemon.DateTimeMechanism
+Exec=@LIBEXECDIR@/msd-datetime-mechanism
+User=root

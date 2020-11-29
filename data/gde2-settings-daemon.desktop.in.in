@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+_Name=GDE2 Settings Daemon
+Exec=@LIBEXECDIR@/gde2-settings-daemon
+OnlyShowIn=GDE2;
+X-GDE2-Autostart-Phase=Initialization
+X-GDE2-Autostart-Notify=true
+X-GDE2-AutoRestart=true

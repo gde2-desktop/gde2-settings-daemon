@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.gde2.SettingsDaemon
+Exec=@libexecdir@/gde2-settings-daemon
